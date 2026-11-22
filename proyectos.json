@@ -1,0 +1,67 @@
+{
+  "web": [
+    {
+      "id": "web1",
+      "nombre": "E-commerce de Café",
+      "imagen": "assets/cafe.jpg",
+      "lenguajes": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "descripcion": "Una tienda en línea para una cafetería local con pasarela de pagos.",
+      "enlace_externo": "https://mi-tienda-de-cafe.com",
+      "repositorio": "https://github.com/estefania3346",
+      "sello": "nuevo"
+    }
+  ],
+  "app": [
+    {
+      "id": "app1",
+      "nombre": "App del Clima",
+      "imagen": "assets/clima.jpg",
+      "lenguajes": [
+        "React Native",
+        "API"
+      ],
+      "descripcion": "Aplicación móvil para consultar el clima en tiempo real.",
+      "imagenes_detalle": [
+        "assets/clima1.jpg",
+        "assets/clima2.jpg"
+      ],
+      "video_url": "",
+      "repositorio": "https://github.com/estefania3346"
+    }
+  ],
+  "videojuego": [
+    {
+      "id": "game1",
+      "nombre": "Space Shooter",
+      "imagen": "assets/juego.jpg",
+      "lenguajes": [
+        "Unity",
+        "C#"
+      ],
+      "descripcion": "Juego arcade de naves espaciales con sistema de puntuación.",
+      "imagenes_detalle": [
+        "assets/juego1.jpg"
+      ],
+      "video_url": "",
+      "repositorio": "https://github.com/estefania3346",
+      "sello": "aprobado"
+    }
+  ],
+  "ilustracion": [
+    {
+      "id": "ilu1",
+      "nombre": "Estampilla de luna",
+      "imagen": "assets/ilustraciones/estampilla_luna.jpeg",
+      "sello": "nuevo"
+    },
+    {
+      "id": "ilu2",
+      "nombre": "Postal de luna",
+      "imagen": "assets/ilustraciones/postal_luna.jpg"
+    }
+  ]
+}

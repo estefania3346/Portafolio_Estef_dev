@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Contacto | Estefanía Hernández</title>
+  <meta name="description" content="Escríbele a Estefanía Hernández." />
+  <meta property="og:title" content="Contacto | Estefanía Hernández" />
+  <meta property="og:description" content="Escríbele a Estefanía Hernández." />
+  <meta name="theme-color" content="#efeae0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M6 18h20l5 6h27v30H6z' fill='%23f1d282' stroke='%23262626' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <script>try{if(sessionStorage.getItem('portadaVista'))document.documentElement.classList.add('portada-vista')}catch(e){}</script>
+</head>
+<body data-pagina="contacto" data-color="verde">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <button type="button" class="btn-sonido" id="btn-sonido" aria-pressed="false" title="Sonido de hojas (apagado)">
+      <svg class="icono-sonido" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 5 6 9H3v6h3l5 4z"/>
+        <path class="ondas" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>
+        <path class="tachado" d="M16 9l6 6M22 9l-6 6"/>
+      </svg>
+      <span class="sr-only">Sonido de hojas</span>
+  </button>
+
+  <div class="escritorio">
+    <div class="carpeta-wrapper">
+
+      <nav class="pestanas" aria-label="Secciones">
+        <div class="pestanas-grupo">
+          <a href="index.html" class="pestana tab-amarillo"><span class="tab-largo">Mi Portafolio</span><span class="tab-corto">Inicio</span></a>
+        </div>
+        <div class="pestanas-grupo">
+          <a href="sobre-mi.html" class="pestana tab-rosa">Sobre mí</a>
+          <a href="proyectos.html" class="pestana tab-azul">Proyectos</a>
+          <a href="contacto.html" class="pestana pestana-activa tab-verde" aria-current="page">Contacto</a>
+        </div>
+      </nav>
+
+      <main class="carpeta" id="contenido" tabindex="-1">
+        <div class="carpeta-scroll">
+        <section class="contenido-carpeta">
+          <h1 class="titulo-seccion">Contáctame</h1>
+          <div class="linea-separadora" aria-hidden="true"></div>
+          <p class="subtitulo">¿Tienes una idea, una vacante o un proyecto?</p>
+
+          <div class="tarjeta-giro" id="tarjeta-giro">
+            <div class="tarjeta-interior">
+
+              <div class="tarjeta-cara tarjeta-frente" id="cara-frente">
+                <div class="tarjeta-presentacion">
+                  <span class="tp-nombre">Estefanía Hernández Durán</span>
+                  <span class="tp-rol">Ingeniería en Tecnologías de la Información</span>
+                  <span class="tp-linea" aria-hidden="true"></span>
+                  <span class="tp-texto">Desarrollo web · Apps · Videojuegos · Ilustración</span>
+                  <span class="tp-enlaces">
+                    <a href="https://www.linkedin.com/in/estefania-hernandez-b89a41332/" target="_blank" rel="noopener" class="btn-enlace"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
+                    <a href="https://github.com/estefania3346" target="_blank" rel="noopener" class="btn-enlace"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+                  </span>
+                  <button type="button" class="btn-principal" data-voltear>Escríbeme un mensaje <span aria-hidden="true">↻</span></button>
+                </div>
+              </div>
+
+              <div class="tarjeta-cara tarjeta-reverso" id="cara-reverso" inert>
+                <form class="formulario-postal" id="form-contacto" action="/contacto" method="POST" novalidate>
+                  <div class="estampa-contenedor" aria-hidden="true">
+                    <img src="assets/ilustraciones/postal_luna.jpg" alt="" class="estampa" width="90" height="105">
+                  </div>
+
+                  <div class="form-grupo">
+                    <label for="nombre" class="sr-only">Tu nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="input-linea" autocomplete="name" required>
+                  </div>
+
+                  <div class="form-grupo">
+                    <label for="email" class="sr-only">Tu correo</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" class="input-linea" autocomplete="email" required>
+                  </div>
+
+                  <div class="form-grupo">
+                    <label for="mensaje" class="sr-only">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje…" class="input-textarea" required></textarea>
+                  </div>
+
+                  <p class="form-estado" id="form-estado" role="status" aria-live="polite"></p>
+
+                  <div class="form-pie">
+                    <button type="button" class="btn-volver" data-voltear><span aria-hidden="true">↺</span> Voltear</button>
+                    <button type="submit" class="btn-enviar">
+                      Enviar
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icono-sobre" aria-hidden="true">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <aside class="postit postit-verde esquina-inf-der" aria-label="Nota"><p>¡Voltea la tarjeta para escribirme!</p></aside>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer-boceto">
+    <p>© 2026 Estefanía Hernández Durán · Hecho a mano con HTML y CSS</p>
+  </footer>
+
+  <script src="script.js?v=3"></script>
+  <script>iniciarContacto();</script>
+</body>
+</html>

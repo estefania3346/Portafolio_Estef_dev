@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Estefanía Hernández | Portafolio checeo</title>
+  <meta name="description" content="Portafolio de Estefanía Hernández, estudiante de Ingeniería en Tecnologías de la Información: sitios web, apps, videojuegos e ilustración." />
+  <meta property="og:title" content="Estefanía Hernández | Portafolio" />
+  <meta property="og:description" content="Portafolio de Estefanía Hernández, estudiante de Ingeniería en Tecnologías de la Información: sitios web, apps, videojuegos e ilustración." />
+  <meta name="theme-color" content="#efeae0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M6 18h20l5 6h27v30H6z' fill='%23f1d282' stroke='%23262626' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <script>try{if(sessionStorage.getItem('portadaVista'))document.documentElement.classList.add('portada-vista')}catch(e){}</script>
+</head>
+<body data-pagina="inicio" data-color="amarillo">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <button type="button" class="btn-sonido" id="btn-sonido" aria-pressed="false" title="Sonido de hojas (apagado)">
+      <svg class="icono-sonido" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 5 6 9H3v6h3l5 4z"/>
+        <path class="ondas" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>
+        <path class="tachado" d="M16 9l6 6M22 9l-6 6"/>
+      </svg>
+      <span class="sr-only">Sonido de hojas</span>
+  </button>
+
+  <div class="escritorio">
+    <div class="carpeta-wrapper">
+
+      <nav class="pestanas" aria-label="Secciones">
+        <div class="pestanas-grupo">
+          <a href="index.html" class="pestana pestana-activa tab-amarillo" aria-current="page"><span class="tab-largo">Mi Portafolio</span><span class="tab-corto">Inicio</span></a>
+        </div>
+        <div class="pestanas-grupo">
+          <a href="sobre-mi.html" class="pestana tab-rosa">Sobre mí</a>
+          <a href="proyectos.html" class="pestana tab-azul">Proyectos</a>
+          <a href="contacto.html" class="pestana tab-verde">Contacto</a>
+        </div>
+      </nav>
+
+      <div class="portada" id="portada">
+        <button type="button" class="portada-tapa" id="portada-tapa" aria-label="Abrir el portafolio de Estefanía Hernández">
+          <span class="portada-etiqueta">
+            <span class="etiqueta-linea">Portafolio de</span>
+            <span class="etiqueta-nombre">Estefanía Hernández</span>
+            <span class="etiqueta-linea">Ingeniería en TI · 2026</span>
+          </span>
+          <span class="portada-pista">Haz clic para abrir</span>
+        </button>
+      </div>
+
+      <main class="carpeta" id="contenido" tabindex="-1">
+        <div class="carpeta-scroll">
+        <section class="contenido-carpeta inicio">
+          <h1 id="titulo-inicio" tabindex="-1">Hola, soy Estef</h1>
+          <div class="linea-separadora" aria-hidden="true"></div>
+
+          <p class="intro">Estudiante de <strong>Ingeniería en Tecnologías de la Información</strong>. Creo sitios web, aplicaciones y videojuegos con un toque especial, y me encanta mezclar el código con el arte y el diseño.</p>
+
+          <ul class="notas-rapidas" aria-label="En resumen">
+            <li class="nota-rapida">
+              <span class="nota-etiqueta">Estudio</span>
+              <span class="nota-texto">Universidad Politécnica Metropolitana de Hidalgo · 9º cuatrimestre</span>
+            </li>
+            <li class="nota-rapida">
+              <span class="nota-etiqueta">Intercambio</span>
+              <span class="nota-texto">University of Regina, Canadá · ene–abr 2026</span>
+            </li>
+            <li class="nota-rapida">
+              <span class="nota-etiqueta">Certificado</span>
+              <span class="nota-texto">CS50 · Harvard University, 2025</span>
+            </li>
+          </ul>
+
+          <div class="herramientas">
+            <h2 class="titulo-mano">Con lo que trabajo</h2>
+            <ul class="iconos-tec">
+              <li><img src="assets/iconos/python.svg" alt="" width="34" height="34" loading="lazy"><span>Python</span></li><li><img src="assets/iconos/csharp.svg" alt="" width="34" height="34" loading="lazy"><span>C#</span></li><li><img src="assets/iconos/javascript.svg" alt="" width="34" height="34" loading="lazy"><span>JavaScript</span></li><li><img src="assets/iconos/html5.svg" alt="" width="34" height="34" loading="lazy"><span>HTML</span></li><li><img src="assets/iconos/css3.svg" alt="" width="34" height="34" loading="lazy"><span>CSS</span></li><li><img src="assets/iconos/django.svg" alt="" width="34" height="34" loading="lazy"><span>Django</span></li><li><img src="assets/iconos/mysql.svg" alt="" width="34" height="34" loading="lazy"><span>MySQL</span></li><li><img src="assets/iconos/unity.svg" alt="" width="34" height="34" loading="lazy"><span>Unity</span></li><li><img src="assets/iconos/firebase.svg" alt="" width="34" height="34" loading="lazy"><span>Firebase</span></li><li><img src="assets/iconos/git.svg" alt="" width="34" height="34" loading="lazy"><span>Git</span></li>
+            </ul>
+          </div>
+
+          <div class="enlaces-sociales">
+            <a href="https://www.linkedin.com/in/estefania-hernandez-b89a41332/" target="_blank" rel="noopener" class="btn-enlace"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
+            <a href="https://github.com/estefania3346" target="_blank" rel="noopener" class="btn-enlace"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+            <a href="assets/cv.pdf" target="_blank" rel="noopener" class="btn-enlace"><svg class="icono" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>Mi CV</a>
+          </div>
+
+          <a href="proyectos.html" class="btn-principal">Ver mis proyectos <span aria-hidden="true">→</span></a>
+        </section>
+        <aside class="postit postit-amarillo esquina-sup-der" aria-label="Nota"><p>Dato curioso: estoy aprendiendo japonés</p></aside>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer-boceto">
+    <p>© 2026 Estefanía Hernández Durán · Hecho a mano con HTML y CSS</p>
+  </footer>
+
+  <script src="script.js?v=3"></script>
+  <script>iniciarPortada();</script>
+</body>
+</html>

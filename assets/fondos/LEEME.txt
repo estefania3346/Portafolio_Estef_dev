@@ -1,0 +1,6 @@
+Pon aquí tus imágenes de fondo (jpg o webp, de unos 1920 px de ancho).
+Luego abre styles.css, sección "0. TU FONDO", y cambia:
+  --fondo-imagen: none;
+por, por ejemplo:
+  --fondo-imagen: url("assets/fondos/escritorio.jpg");
+Ahí mismo hay ejemplos para poner un fondo distinto en cada página.

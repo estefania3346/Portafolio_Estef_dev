@@ -1,0 +1,2 @@
+Íconos de tecnologías: Devicon v2.16.0 (https://devicon.dev), licencia MIT.
+Para agregar otro ícono, copia su SVG aquí y añade su nombre en ICONOS_TEC (script.js).

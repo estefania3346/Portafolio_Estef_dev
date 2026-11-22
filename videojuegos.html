@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Videojuegos | Estefanía Hernández</title>
+  <meta name="description" content="Videojuegos de Estefanía Hernández." />
+  <meta property="og:title" content="Videojuegos | Estefanía Hernández" />
+  <meta property="og:description" content="Videojuegos de Estefanía Hernández." />
+  <meta name="theme-color" content="#efeae0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M6 18h20l5 6h27v30H6z' fill='%23f1d282' stroke='%23262626' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <script>try{if(sessionStorage.getItem('portadaVista'))document.documentElement.classList.add('portada-vista')}catch(e){}</script>
+</head>
+<body data-pagina="proyectos" data-color="azul">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <button type="button" class="btn-sonido" id="btn-sonido" aria-pressed="false" title="Sonido de hojas (apagado)">
+      <svg class="icono-sonido" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 5 6 9H3v6h3l5 4z"/>
+        <path class="ondas" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>
+        <path class="tachado" d="M16 9l6 6M22 9l-6 6"/>
+      </svg>
+      <span class="sr-only">Sonido de hojas</span>
+  </button>
+
+  <div class="escritorio">
+    <div class="carpeta-wrapper">
+
+      <nav class="pestanas" aria-label="Secciones">
+        <div class="pestanas-grupo">
+          <a href="index.html" class="pestana tab-amarillo"><span class="tab-largo">Mi Portafolio</span><span class="tab-corto">Inicio</span></a>
+        </div>
+        <div class="pestanas-grupo">
+          <a href="sobre-mi.html" class="pestana tab-rosa">Sobre mí</a>
+          <a href="proyectos.html" class="pestana pestana-activa tab-azul" aria-current="page">Proyectos</a>
+          <a href="contacto.html" class="pestana tab-verde">Contacto</a>
+        </div>
+      </nav>
+
+      <main class="carpeta" id="contenido" tabindex="-1">
+        <div class="carpeta-scroll">
+        <section class="contenido-carpeta">
+          <div class="header-vista-proyectos">
+            <a href="proyectos.html" class="btn-volver"><span aria-hidden="true">←</span> Volver</a>
+          </div>
+
+          <h1 class="titulo-seccion">Videojuegos</h1>
+          <div class="linea-separadora" aria-hidden="true"></div>
+          <p class="subtitulo">Toca una hoja para ver el detalle</p>
+
+          <div class="carrusel" data-carrusel>
+            <button type="button" class="carrusel-flecha anterior" aria-label="Anterior" data-dir="-1"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <div class="carrusel-pista pista-hojas" id="grid-dinamico" tabindex="0" aria-label="Videojuegos"></div>
+            <button type="button" class="carrusel-flecha siguiente" aria-label="Siguiente" data-dir="1"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </section>
+
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer-boceto">
+    <p>© 2026 Estefanía Hernández Durán · Hecho a mano con HTML y CSS</p>
+  </footer>
+
+  <script src="script.js?v=3"></script>
+  <script>cargarLista('videojuego');</script>
+</body>
+</html>
