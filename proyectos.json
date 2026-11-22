@@ -2,16 +2,19 @@
   "web": [
     {
       "id": "web1",
-      "nombre": "E-commerce de Café",
-      "imagen": "assets/cafe.jpg",
+      "nombre": "Study Organizer",
+      "imagen": "assets/studyOrganizer.png",
       "lenguajes": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "Python",
+        "Flask",
+        "SQLite"
       ],
-      "descripcion": "Una tienda en línea para una cafetería local con pasarela de pagos.",
-      "enlace_externo": "https://mi-tienda-de-cafe.com",
-      "repositorio": "https://github.com/estefania3346",
+      "descripcion": "Organizador de estudio para estudiantes: registra materias y tareas, y genera un plan priorizado según fecha de entrega, prioridad y dificultad. Proyecto final de CS50.",
+      "enlace_externo": "https://study-organizer-zykp.onrender.com/",
+      "repositorio": "https://github.com/estefania3346/Study_organizer",
       "sello": "nuevo"
     }
   ],
