@@ -1,0 +1,12 @@
+# Datos privados: nunca se suben al repositorio
+.env
+.env.*
+*.env
+secrets.*
+credenciales*
+*.key
+*.pem
+
+# Archivos del editor y del sistema
+.DS_Store
+Thumbs.db

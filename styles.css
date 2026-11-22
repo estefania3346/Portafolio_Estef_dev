@@ -992,6 +992,8 @@ button.polaroid:hover { transform: translateY(-4px) rotate(0deg) scale(1.02); bo
   padding: 4px; background: #fff;
 }
 .form-grupo { width: 100%; }
+/* Campo trampa contra spam: invisible para las personas */
+.trampa { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .input-linea {
   width: 72%;
   padding: 0.5rem 0;

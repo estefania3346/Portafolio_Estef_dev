@@ -557,16 +557,16 @@ function iniciarContacto() {
     estado.textContent = 'Enviando…';
 
     try {
+      // Envío a Formspree (https://formspree.io), que reenvía el mensaje a tu correo
       const res = await fetch(form.action, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          nombre: form.nombre.value.trim(),
-          email: form.email.value.trim(),
-          mensaje: form.mensaje.value.trim()
-        })
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
       });
-      if (!res.ok) throw new Error();
+      if (!res.ok) {
+        const datos = await res.json().catch(() => ({}));
+        throw new Error(datos.errors?.map(e => e.message).join(' ') || 'Error');
+      }
       form.reset();
       estado.textContent = '¡Gracias! Tu mensaje llegó, te responderé pronto.';
       estado.classList.add('es-exito');

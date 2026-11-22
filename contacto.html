@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <script>try{if(sessionStorage.getItem('portadaVista'))document.documentElement.classList.add('portada-vista')}catch(e){}</script>
 </head>
 <body data-pagina="contacto" data-color="verde">
@@ -68,7 +68,10 @@
               </div>
 
               <div class="tarjeta-cara tarjeta-reverso" id="cara-reverso" inert>
-                <form class="formulario-postal" id="form-contacto" action="/contacto" method="POST" novalidate>
+                <form class="formulario-postal" id="form-contacto" action="https://formspree.io/f/xgakpvvz" method="POST" novalidate>
+                  <!-- Formspree reenvía estos mensajes a tu correo. El ID del formulario puede ser público. -->
+                  <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portafolio">
+                  <input type="text" name="_gotcha" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true">
                   <div class="estampa-contenedor" aria-hidden="true">
                     <img src="assets/ilustraciones/postal_luna.jpg" alt="" class="estampa" width="90" height="105">
                   </div>
@@ -106,7 +109,7 @@
             </div>
           </div>
         </section>
-        <aside class="postit postit-verde esquina-inf-der" aria-label="Nota"><p>¡Voltea la tarjeta para escribirme!</p></aside>
+        <aside class="postit postit-verde esquina-sup-der" aria-label="Nota"><p>¡Voltea la tarjeta para escribirme!</p></aside>
         </div>
       </main>
     </div>
@@ -116,7 +119,7 @@
     <p>© 2026 Estefanía Hernández Durán · Hecho a mano con HTML y CSS</p>
   </footer>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
   <script>iniciarContacto();</script>
 </body>
 </html>
