@@ -11,7 +11,8 @@ const ICONOS_TEC = {
   'javascript': 'javascript', 'js': 'javascript', 'html': 'html5', 'css': 'css3', 'scss': 'sass',
   'sass': 'sass', 'django': 'django', 'flask': 'flask', 'mysql': 'mysql', 'firebase': 'firebase',
   'unity': 'unity', 'visual studio': 'visualstudio', 'android studio': 'androidstudio',
-  'git': 'git', 'github': 'github', 'react': 'react', 'react native': 'react'
+  'git': 'git', 'github': 'github', 'react': 'react', 'react native': 'react',
+  'flutter': 'flutter', 'dart': 'dart', 'sqlite': 'sqlite'
 };
 
 // Sujetadores y sellos para las hojas de proyecto
@@ -414,7 +415,7 @@ async function cargarLista(categoria) {
     }
 
     const acciones = el('div', 'proyecto-acciones');
-    if (esWeb && proyecto.enlace_externo) acciones.append(enlaceExterno(proyecto.enlace_externo, 'Visitar ↗', 'enlace-accion'));
+    if (proyecto.enlace_externo) acciones.append(enlaceExterno(proyecto.enlace_externo, esWeb ? 'Visitar ↗' : 'Probar ↗', 'enlace-accion'));
     if (proyecto.repositorio) acciones.append(enlaceExterno(proyecto.repositorio, 'Código', 'enlace-accion'));
     if (!esWeb) {
       const ver = el('span', 'enlace-accion falso', 'Ver detalle →');

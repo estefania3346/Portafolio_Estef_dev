@@ -20,6 +20,25 @@
   ],
   "app": [
     {
+      "id": "app2",
+      "nombre": "mynewFriend",
+      "imagen": "assets/mynewfriend.png",
+      "lenguajes": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "descripcion": "App de adopción de perros y gatos rescatados en Pachuca: catálogo con filtros, favoritos, solicitudes de adopción, hogar temporal, donaciones y reporte de animales. Conecta refugios con la comunidad.",
+      "imagenes_detalle": [
+        "assets/mynewfriend.png",
+        "assets/mynewfriend2.png"
+      ],
+      "video_url": "",
+      "enlace_externo": "https://mynewfriend-69dc5.web.app/",
+      "repositorio": "https://github.com/estefania3346/Adoptionmynewfriend",
+      "sello": "nuevo"
+    },
+    {
       "id": "app1",
       "nombre": "App del Clima",
       "imagen": "assets/clima.jpg",
